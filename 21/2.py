@@ -46,7 +46,7 @@ def binary_search2(nums, val):  # O(log(n)) - логарифмическая з�
 
 def time_it(func, **kwargs):
     start = time.time()
-    res = (func(**kwargs))
+    res = func(**kwargs)
     end = time.time()
     print(res)
     print(f'time: {end - start}')
