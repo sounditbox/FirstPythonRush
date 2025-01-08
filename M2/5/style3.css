@@ -1,0 +1,68 @@
+@font-face {
+font-family: "Open";
+src: url("\Cormorant_Infant\CormorantInfant-LightItalic.ttf") format("ttf");
+}
+.cormorant-infant-light {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cormorant-infant-regular {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cormorant-infant-medium {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cormorant-infant-semibold {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.cormorant-infant-bold {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-infant-light-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cormorant-infant-regular-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cormorant-infant-medium-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.cormorant-infant-semibold-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.cormorant-infant-bold-italic {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* установка Roboto в качестве основного шрифта */
+body {
+    font-family: cormorant-infant, sans-serif;
+}
