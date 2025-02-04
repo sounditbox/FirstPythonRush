@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Формы</title>
+</head>
+<body>
+<form action="" method="post">
+    <div>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="surname">Фамилия:</label>
+        <input type="text" id="surname" name="surname">
+        <input type="checkbox" name="hobbies" value="reading">Чтение<br>
+        <input type="checkbox" name="hobbies"
+               value="coding">Программирование<br>
+        <input type="radio" name="gender" value="male">Мужской<br>
+        <input type="radio" name="gender" value="female">Женский<br>
+        <input type="radio" name="gender" value="other">Другое<br>
+        <hr>
+        <input type="radio" name="var" value="1">1<br>
+        <input type="radio" name="var" value="2">2<br>
+    </div>
+    <select name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <optgroup label="German Cars">
+            <option value="audi">Audi</option>
+            <option value="bmw">BMW</option>
+        </optgroup>
+    </select>
+    <input type="file" id="myFile" name="myFile" accept="image/*">
+    <input type="submit" value="Отправить">
+
+</form>
+<iframe
+        width="480"
+        height="240"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        allowfullscreen>
+</iframe>
+</body>
+</html>
