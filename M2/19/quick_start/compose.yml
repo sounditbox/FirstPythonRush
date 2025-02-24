@@ -1,0 +1,16 @@
+services:
+  web: # backend
+    container_name: web
+    build: .
+    ports:
+      - "8000:5000"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /code
+    depends_on:
+      - redis
+  redis:
+    container_name: redis
+    image: "redis:alpine"
