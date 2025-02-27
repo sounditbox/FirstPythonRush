@@ -1,0 +1,11 @@
+groups:
+  - name: ExampleAlertGroup
+    rules:
+      - alert: TooManyVisits
+        expr: rate(request_count_total[1m]) > 10
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High number of visits"
+          description: "More than 10 visits in the last minute"

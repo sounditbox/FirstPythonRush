@@ -1,0 +1,10 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: "demo-receiver"
+
+receivers:
+  - name: "demo-receiver"
+    email_configs:
+      - to: "soundibox@gmail.com"
